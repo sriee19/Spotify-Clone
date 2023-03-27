@@ -52,10 +52,22 @@ nav ul li{
    width: 70%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url('bg.jpg');
+   background-image: url('./assests/bg.jpg');
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
 .icons{
     margin-top: 14px; 
+position: relative;
 }
 .icons i{
     cursor: pointer;
